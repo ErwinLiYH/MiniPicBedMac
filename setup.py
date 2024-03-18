@@ -11,7 +11,7 @@ setup(
     install_requires=[
         "rumps",
         "flask",
-        "APPKit",
+        "pyobjc",
     ],
     author='ErwinLiYH',
     author_email='erwinli@qq.com',
