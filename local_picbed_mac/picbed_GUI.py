@@ -45,4 +45,4 @@ class ClipboardImageSaverApp(rumps.App):
                 to_copy = "COPY_BEVAIOR ERROR"
             pasteboard.setString_forType_(to_copy, NSStringPboardType)
         else:
-            rumps.alert("No image found in the clipboard.")
+            rumps.notification(title="Image Saver", subtitle="No image found in clipboard", message="Please copy an image first")
