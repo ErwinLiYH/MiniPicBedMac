@@ -2,6 +2,8 @@
 
 This project introduces a minimalist local picture hosting solution (PicBed) specifically designed for macOS. It leverages the simplicity and flexibility of [Flask](https://flask.palletsprojects.com) for serving images over the web, and [rumps](https://github.com/jaredks/rumps) for integrating seamlessly with the macOS menu bar.
 
+![](./img/Screenshot%202024-03-18%20at%2018.17.18.png)
+
 Features:
 
 - **Clipboard Monitoring**: Automatically saves images copied to the clipboard, streamlining the process of image uploading.
