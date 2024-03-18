@@ -47,7 +47,7 @@ This PicBed solution is ideal for users seeking a straightforward and efficient 
 
 ## Usage
 
-1. Run PiBed
+1. Run PicBed
     ```bash
     python -m local_picbed_mac&
     ```
