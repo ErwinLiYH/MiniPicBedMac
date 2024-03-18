@@ -36,9 +36,9 @@ class ClipboardImageSaverApp(rumps.App):
             # Copy the URL path to the clipboard
             pasteboard.declareTypes_owner_([NSStringPboardType], None)
             if COPY_BEVAIOR == "MD":
-                to_copy = f"![](https://127.0.0.1:{PORT}/files/"+f"Clipboard_{timestamp}.png)"
+                to_copy = f"![](http://127.0.0.1:{PORT}/files/"+f"Clipboard_{timestamp}.png)"
             elif COPY_BEVAIOR == "URL":
-                to_copy = f"https://127.0.0.1:{PORT}/files/"+f"Clipboard_{timestamp}.png"
+                to_copy = f"http://127.0.0.1:{PORT}/files/"+f"Clipboard_{timestamp}.png"
             elif COPY_BEVAIOR == "PATH":
                 to_copy = file_path
             else:
