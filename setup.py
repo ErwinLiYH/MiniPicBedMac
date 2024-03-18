@@ -8,6 +8,9 @@ setup(
     name='local_picbed_mac',
     version='0.1.0',
     packages=find_packages(),
+    package_data={
+        "local_picbed_mac": ["data/*"],
+    },
     install_requires=[
         "rumps",
         "flask",
