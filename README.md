@@ -22,8 +22,11 @@ This PicBed solution is ideal for users seeking a straightforward and efficient 
 3. Modify settings in `__init__.py`
     ```python
     # image saving directory
-    # default: ~/mypicbed
-    FILES_DIRECTORY = os.path.expanduser('~/mypicbed/')
+    # you can add and modify vault here
+    FILES_DIRECTORY = {
+    "default": os.path.expanduser('~/mypicbed/'),  # default vault in ~/mypicbed/
+    # "any_other_vault": "path/to/your/vault"
+    }
     
     # server port, default: 20119
     PORT = 20119
@@ -47,6 +50,6 @@ This PicBed solution is ideal for users seeking a straightforward and efficient 
     python -m local_picbed_mac&
     ```
 2. Copy a image
-3. Click `MyPicbed` in status bar
-4. Click `Save Image for Pastedboard`
+3. Seect vault to save image by clicking `Selected Vault: xxx` in status bar app(optional)
+4. Click `Save Image for Pastedboard` in status bar app
 5. Copy the image MD/URL/PATH to anywhere
