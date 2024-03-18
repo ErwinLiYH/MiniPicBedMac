@@ -45,11 +45,11 @@
     COPY_BEVAIOR = "MD"  # "MD", "URL" 或 "PATH"
     ```
 
-## 安装
+5. 安装
 
-```bash
-pip install .
-```
+    ```bash
+    pip install .
+    ```
 
 ## 使用
 
