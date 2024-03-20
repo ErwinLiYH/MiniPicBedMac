@@ -27,6 +27,9 @@ This PicBed solution is ideal for users seeking a straightforward and efficient 
     ```
 3. Modify settings in `__init__.py`
     ```python
+    # title of the app in status bar
+    TITLE = "MyPicbed"
+
     # image saving directory
     # you can add and modify vault here
     FILES_DIRECTORY = {

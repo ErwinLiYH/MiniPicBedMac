@@ -27,6 +27,9 @@
 4. 修改__init__.py中的设置
 
     ```python
+    # 状态栏中app显示的标题
+    TITLE = "MyPicbed"
+
     # 图片保存目录
     # 你可以在这里添加和修改图片仓库
     FILES_DIRECTORY = {
