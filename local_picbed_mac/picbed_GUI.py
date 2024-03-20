@@ -9,6 +9,7 @@ import pickle
 from . import FILES_DIRECTORY
 from . import PORT
 from . import COPY_BEVAIOR
+from . import TITLE
 
 
 def read_default_vault():
@@ -21,7 +22,7 @@ def write_default_vault(vault):
 
 class ClipboardImageSaverApp(rumps.App):
     def __init__(self):
-        super(ClipboardImageSaverApp, self).__init__("MyPicbed")
+        super(ClipboardImageSaverApp, self).__init__(TITLE)
         self.save_folders = FILES_DIRECTORY
         self.save_vault = read_default_vault()
         self.save_folder = self.save_folders[self.save_vault]
